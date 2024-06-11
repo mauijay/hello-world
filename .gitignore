@@ -1,0 +1,79 @@
+#-------------------------
+# Generated Assets
+#-------------------------
+1.DoNotUpload/
+public/vendors/*
+public/assets/css/*
+public/assets/js/*
+!public/vendors/.gitkeep
+!public/assets/css/.gitkeep
+!public/assets/js/.gitkeep
+public/uploads/*
+app/Database/Migrations/*
+app/Database/Seeds/*
+!app/Database/Migrations/.gitkeep
+!app/Database/Seeds/.gitkeep
+vendor/*
+
+#-------------------------
+# Development only Files
+#-------------------------
+/node_modules
+phpunit.xml
+/mariadb
+/storage/minio
+src/*
+dist
+*.local
+
+#-------------------------
+# Environment Files
+#-------------------------
+# These should never be under version control,
+.env
+.env.backup
+.vagrant
+Vagrantfile
+
+#-------------------------
+# Temporary Files
+#-------------------------
+writable/cache/*
+!writable/cache/index.html
+writable/logs/*
+!writable/logs/index.html
+writable/session/*
+!writable/session/index.html
+writable/uploads/*
+!writable/uploads/index.html
+writable/debugbar/*
+!writable/debugbar/.gitkeep
+writable/database.db
+writable/**/*.db
+writable/**/*.sqlite
+
+#-------------------------
+# Logs
+#-------------------------
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+#-------------------------
+# VS Code
+#-------------------------
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+/results/
+/phpunit*.xml
+/.phpunit.*.cache
+/.php-cs-fixer.php
